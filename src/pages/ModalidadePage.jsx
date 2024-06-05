@@ -1,7 +1,7 @@
 const ModalidadePage = () => {
   return (
     <div>
-      Modalidade
+      Modalidades
     </div>
   )
 }
