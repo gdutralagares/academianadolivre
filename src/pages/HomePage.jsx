@@ -1,10 +1,8 @@
 const HomePage = () => {
   return (
     <div className="homepage">
-      <header className="w-100 min-vh-100">
-        <div className="kelas w-100 min-vh-100"></div>
-
-      </header>
+      <header className="w-100 min-vh-100"></header>
+        <div className="modalidade w-100 min-vh-100"></div>
     </div>
   )
 }
