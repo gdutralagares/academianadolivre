@@ -20,13 +20,13 @@ export const navLinks = [
   },
   {
     id: 2,
-    path: "kelas",
-    text: "Kelas",
+    path: "modalidade",
+    text: "Modalidade",
   },
   {
     id: 3,
-    path: "testimonial",
-    text: "Testimonial",
+    path: "beneficios",
+    text: "Benefícios",
   },
   {
     id: 4,
@@ -35,8 +35,8 @@ export const navLinks = [
   },
   {
     id: 5,
-    path: "syaratketen",
-    text: "Syarat & Ketentuan",
+    path: "contato",
+    text: "Contato",
   },
 ];
 
