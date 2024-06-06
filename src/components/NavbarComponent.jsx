@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { navLinks } from "../data/index";
 import { NavLink } from "react-router-dom";
-import {Capa} from "../images/logo-removed.png"
+import {Logo} from "../images/logo-removed.png"
 
 const NavbarComponent = () => {
   const [changeColor, setChangeColor] = useState(false);
@@ -23,7 +23,7 @@ const NavbarComponent = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <img src={Capa} alt="" className="logo" />
+          <img src={Logo} alt="" className="logo" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">

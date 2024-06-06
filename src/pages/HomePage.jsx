@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import HeroImage from "../images/capa.png";
+import Capa from "../images/capa.png";
 
 const HomePage = () => {
   return (
@@ -18,7 +18,7 @@ const HomePage = () => {
             <button className="btn btn-outline-danger round-1"> Saiba mais</button>
           </Col>
           <Col lg="6" className="pt-lg-0 pt-5">
-          <img src={HeroImage} alt="hero-img" />
+          <img src={Capa} alt="hero-img" />
           </Col>
         </Row>
       </Container>
