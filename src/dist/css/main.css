@@ -125,4 +125,8 @@ header{
     width: 250px;
   }
 }
-/**/
+/*homepage modalidade*/
+.homepage .modalidade{
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}

@@ -27,7 +27,18 @@ const HomePage = () => {
         <Container>
           <Row>
             <Col>
-            
+            <h1 className="text-center fw-bold">Modalidades</h1>
+            <p className="text-center">Conheça as modalidades oferecidas pela Academia</p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="beneficios w-100 min-vh-100">
+        <Container>
+          <Row>
+            <Col>
+            <h1 className="text-center fw-bold">Benefícios</h1>
+            <p className="text-center">Lorem ipsum dolor sit amet.</p>
             </Col>
           </Row>
         </Container>
