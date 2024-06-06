@@ -1,0 +1,67 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #f6f8fd;
+  --secondary-color: #dc3545;
+  --color-text: #231942;
+  --navbar-color: #ffffff;
+  --navbar-color-text: #000000;
+}
+/*NAVBAR*/
+.navbar{
+  position: fixed;
+  padding: 15px 0 15px 0;
+  width: 100%;
+  transition: all 0.5s ease;
+  z-index: 9999;
+}
+.logo{
+  width: 180px;
+}
+.navbar.color-active{
+  background-color: var(--navbar-color);
+  padding: 15px 0 15px 0;
+  border-bottom: 2px solid #dc354638;
+}
+.navbar.color-active .btn{
+  background-color: none;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.navbar.color-active .btn:hover{
+  border-color: var(--navbar-color-text);
+  color: var(--navbar-color-text);
+}
+.navbar.color-active .nav-link a:hover{
+  color: var(--secondary-color);
+}
+
+.navbar .nav-link a{
+  padding:5px 10px 5px 10px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--navbar-color-text);
+}
+.navbar .nav-link a:hover{
+  color: var(--primary-color);
+}
+.navbar .nav-link .active{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 3px;
+}
+.navbar .nav-link .active:hover{
+  color: var(--navbar-color);
+}
+.btn{
+  color: var(--navbar-color-text);
+  border-color: var(--navbar-color-text);
+  border-radius: 3px;
+}
+/*Home page*/
+header{
+  background: #bed3f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f78a8a, #6ab0f7, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f78a8a, #6ab0f7, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
