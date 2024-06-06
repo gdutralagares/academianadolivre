@@ -22,9 +22,7 @@ const NavbarComponent = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <Navbar.Brand href="#home" className="fs-4 fw-bold">
-            Academia Nado Livre
-          </Navbar.Brand>
+          <img src="./src/images/logo-removed.png" alt="" className="logo" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
