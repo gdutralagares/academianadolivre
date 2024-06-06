@@ -23,7 +23,15 @@ const HomePage = () => {
         </Row>
       </Container>
       </header>
-      <div className="modalidade w-100 min-vh-100"></div>
+      <div className="modalidade w-100 min-vh-100">
+        <Container>
+          <Row>
+            <Col>
+            
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };

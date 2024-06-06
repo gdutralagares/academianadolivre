@@ -87,18 +87,41 @@ header{
   margin-top: 120px;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
   .homepage .header-box{
     padding-top: 2rem;
   }
   .homepage .header-box img{
-    width: 100%;
-    margin-left: 0px;
+    width: 400px;
+    display: block;
+    margin-inline: auto;
   }
 }
 @media screen and (max-width: 575px){
   .homepage .header-box h1{
+    font-size: 2.6rem;
+  }
+}
+@media screen and (max-width: 475px){
+  .homepage .header-box h1{
     font-size: 2.2rem;
+  }
+  .homepage .header-box p{
+    font-size: 14px;
+  }
+  .homepage .header-box img{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 375px){
+  .homepage .header-box h1{
+    font-size: 2rem;
+  }
+  .homepage .header-box p{
+    font-size: 12px;
+  }
+  .homepage .header-box img{
+    width: 250px;
   }
 }
 /**/
