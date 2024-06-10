@@ -28,7 +28,7 @@ const HomePage = () => {
           <Row>
             <Col>
             <h1 className="text-center fw-bold">Modalidades</h1>
-            <p className="text-center">Conheça as modalidades oferecidas pela Academiaa</p>
+            <p className="text-center">Conheça as modalidades oferecidas pela Academia</p>
             </Col>
           </Row>
           <Row>
