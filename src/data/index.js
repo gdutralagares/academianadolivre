@@ -19,8 +19,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    path: "beneficios",
-    text: "Benefícios",
+    path: "fotos",
+    text: "Fotos",
   },
   {
     id: 4,
@@ -68,6 +68,7 @@ export const atividades = [
     title: "Natação",
     price: "Rp. 300.000",
     mais: "Saiba mais",
+    text: "A natação é um esporte aquático que combina técnica, resistência e coordenação, proporcionando um exercício completo que fortalece os músculos, melhora a capacidade cardiovascular e promove o bem-estar geral.",
     delay: "",
   },
   {
@@ -76,6 +77,7 @@ export const atividades = [
     title: "Natação para bebês",
     price: "Rp. 340.000",
     mais: "Saiba mais",
+    text:  "Natação para bebês é uma atividade segura e divertida que introduz os pequenos ao ambiente aquático, ajudando no desenvolvimento motor, fortalecimento muscular e na criação de um vínculo especial com os pais.",
     delay: "200",
   },
   {
@@ -84,6 +86,7 @@ export const atividades = [
     title: "Hidroginástica",
     price: "Rp. 280.000",
     mais: "Saiba mais",
+    text: "Hidroginástica é uma forma de exercício realizada em água rasa, combinando movimentos aeróbicos e de resistência que oferecem benefícios como fortalecimento muscular, melhoria da flexibilidade e baixo impacto nas articulações.",
     delay: "400",
   },
 

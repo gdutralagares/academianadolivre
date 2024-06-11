@@ -39,7 +39,8 @@ const HomePage = () => {
               return(
                 <Col key={atividade.id}>
                   <img src={atividade.image} alt="" />
-                  <h5 className="mb-5 mt-4 px-3">{atividade.title}</h5>
+                  <h5 className="mb-3 mt-4 px-3">{atividade.title}</h5>
+                  <p className="px-3">{atividade.text}</p>
                   <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                     <p></p>
                     <button className="btn btn-outline-danger round-1">{atividade.mais}</button>
@@ -54,7 +55,7 @@ const HomePage = () => {
         <Container>
           <Row>
             <Col>
-            <h1 className="text-center fw-bold">Benefícios</h1>
+            <h1 className="text-center fw-bold">Fotos</h1>
             <p className="text-center">Lorem ipsum dolor sit amet.</p>
             </Col>
           </Row>

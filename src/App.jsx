@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 import FaqPage from "./pages/FaqPage";
 import ContatoPage from "./pages/ContatoPage";
 import ModalidadePage from "./pages/ModalidadePage";
-import BeneficiosPage from "./pages/BeneficiosPage";
+import FotosPage from "./pages/FotosPage";
 
 function App() {
   return(
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" Component={HomePage}/>
       <Route path="/modalidade" Component={ModalidadePage}/>
-      <Route path="/beneficios" Component={BeneficiosPage}/>
+      <Route path="/fotos" Component={FotosPage}/>
       <Route path="/faq" Component={FaqPage}/>
       <Route path="/contato" Component={ContatoPage}/>
     </Routes>
