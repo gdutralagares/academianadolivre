@@ -101,7 +101,7 @@ const HomePage = () => {
           {dataSwiper.map((data) => {
               return (
               <SwiperSlide key={data.id}>
-                <div class="swiper-zoom-container">
+                <div className="swiper-zoom-container">
                 <img src={data.image} />
                 </div>
                 </SwiperSlide>

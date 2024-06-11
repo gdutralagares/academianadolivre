@@ -4,9 +4,9 @@ import Image3 from "/src/images/hidro.png";
 
 import Foto1 from "/src/images/foto1.jpeg";
 import Foto2 from "/src/images/foto2.jpeg";
-import Foto3 from "/src/images/foto3.jpeg";
-import Foto4 from "/src/images/foto1.jpeg";
-import Foto5 from "/src/images/foto3.jpeg";
+import Foto3 from "/src/images/foto1.jpeg";
+import Foto4 from "/src/images/foto3.jpeg";
+import Foto5 from "/src/images/foto2.jpeg";
 
 export const navLinks = [
   {
