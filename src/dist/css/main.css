@@ -158,7 +158,7 @@ header{
 .homepage .fotos{
   background-color: var(--primary-color);
 }
-homepage .fotos h1{
+.homepage .fotos h1{
   color: var(--color-text);
 }
 
@@ -179,4 +179,13 @@ homepage .fotos h1{
   display: block;
   width: 100%;
   border-radius: 5px;
+}
+/*FAQ*/
+.faq{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-color);
+}
+.faq h1{
+  color: var(--color-text);
 }
