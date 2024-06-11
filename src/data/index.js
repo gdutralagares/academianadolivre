@@ -2,9 +2,11 @@ import Image1 from "/src/images/natacao1.png";
 import Image2 from "/src/images/baby.png";
 import Image3 from "/src/images/hidro.png";
 
-import People1 from "/src/images/hidro.png";
-import People2 from "/src/images/hidro.png";
-import People3 from "/src/images/hidro.png";
+import Foto1 from "/src/images/foto1.jpeg";
+import Foto2 from "/src/images/foto2.jpeg";
+import Foto3 from "/src/images/foto3.jpeg";
+import Foto4 from "/src/images/foto1.jpeg";
+import Foto5 from "/src/images/foto3.jpeg";
 
 export const navLinks = [
   {
@@ -95,50 +97,72 @@ export const atividades = [
 export const fotos = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
+    image: Foto1,
     name: "People 1",
-    skill: "UI UX Designer",
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
+    image: Foto2,
     name: "People 2",
-    skill: "Flutter Developer",
+
   },
   {
     id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
+    image: Foto3,
     name: "People 3",
-    skill: "Web Developer",
   },
+  {
+    id: 5,
+    image: Foto5,
+    name: "People 3",
+  },
+  {
+    id: 5,
+    image: Foto5,
+    name: "People 3",
+  },
+
+  
 ];
 
 export const dataSwiper = [
   {
     id: 1,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
+    image: Foto1,
     name: "People 1",
     skill: "UI UX Designer",
   },
   {
     id: 2,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
+    image: Foto2,
     name: "People 2",
     skill: "Flutter Developer",
   },
   {
     id: 3,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
+    image: Foto3,
+    name: "People 3",
+    skill: "Web Developer",
+  },
+  {
+    id: 4,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: Foto4,
+    name: "People 3",
+    skill: "Web Developer",
+  },
+  {
+    id: 5,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: Foto5,
     name: "People 3",
     skill: "Web Developer",
   },
 ];
+
 
 export const faq = [
   {

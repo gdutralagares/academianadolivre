@@ -78,7 +78,7 @@ const HomePage = () => {
           <Row>
             <Col>
               <h1 className="text-center fw-bold">Fotos</h1>
-              <p className="text-center">Lorem ipsum dolor sit amet.</p>
+              <p className="text-center"></p>
             </Col>
           </Row>
           <Row>
