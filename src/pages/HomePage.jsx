@@ -1,8 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Capa from "../images/capa.png";
-import { kelasTerbaru } from "../data";
+import { atividades } from "../data";
+import {useNavigate} from "react-router-dom"
 
 const HomePage = () => {
+  let navigate = useNavigate();
+
   return (
     <div className="homepage">
       <header className="w-100 min-vh-100 d-flex align-items-center">
@@ -32,10 +35,15 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
-            {kelasTerbaru.map((kelas) =>{
+            {atividades.map((atividade) =>{
               return(
-                <Col key={kelas.id}>
-                  <img src={kelas.image} alt="" />
+                <Col key={atividade.id}>
+                  <img src={atividade.image} alt="" />
+                  <h5 className="mb-5 mt-4 px-3">{atividade.title}</h5>
+                  <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
+                    <p></p>
+                    <button className="btn btn-outline-danger round-1">{atividade.mais}</button>
+                  </div>
                 </Col>
               )
             })}

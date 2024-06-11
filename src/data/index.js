@@ -1,6 +1,6 @@
-import KelasImage1 from "/src/images/natacao1.png";
-import KelasImage2 from "/src/images/baby.png";
-import KelasImage3 from "/src/images/hidro.png";
+import Image1 from "/src/images/natacao1.png";
+import Image2 from "/src/images/baby.png";
+import Image3 from "/src/images/hidro.png";
 
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
@@ -37,25 +37,15 @@ export const navLinks = [
 export const semuaKelas = [
   {
     id: 1,
-    image: KelasImage1,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
+    image: Image1,
+    title: "Natação",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
     delay: "1300",
   },
   {
     id: 2,
-    image: KelasImage2,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
+    image: Image2,
     title: "UI UX Website Design for Beginner with Figma",
     price: "Rp. 340.000",
     buy: "Beli Kelas",
@@ -63,12 +53,7 @@ export const semuaKelas = [
   },
   {
     id: 3,
-    image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
+    image: Image3,
     title: "Mastering Web Developer Bootstrap 5",
     price: "Rp. 280.000",
     buy: "Beli Kelas",
@@ -76,44 +61,29 @@ export const semuaKelas = [
   },
 ];
 
-export const kelasTerbaru = [
+export const atividades = [
   {
     id: 1,
-    image: KelasImage1,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
+    image: Image1,
+    title: "Natação",
     price: "Rp. 300.000",
-    buy: "Beli Kelas",
+    mais: "Saiba mais",
     delay: "",
   },
   {
     id: 2,
-    image: KelasImage2,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "UI UX Website Design for Beginner with Figma",
+    image: Image2,
+    title: "Natação para bebês",
     price: "Rp. 340.000",
-    buy: "Beli Kelas",
+    mais: "Saiba mais",
     delay: "200",
   },
   {
     id: 3,
-    image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Web Developer Bootstrap 5",
+    image: Image3,
+    title: "Hidroginástica",
     price: "Rp. 280.000",
-    buy: "Beli Kelas",
+    mais: "Saiba mais",
     delay: "400",
   },
 
@@ -139,48 +109,6 @@ export const testimonial = [
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
     image: People3,
     name: "People 3",
-    skill: "Web Developer",
-  },
-  {
-    id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
-  },
-  {
-    id: 7,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 7",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 8,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 8",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 9,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 9",
     skill: "Web Developer",
   },
 ];
