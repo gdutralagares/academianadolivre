@@ -179,4 +179,5 @@ homepage .fotos h1{
 .swiper-slide img {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }

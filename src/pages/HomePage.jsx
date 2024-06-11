@@ -39,7 +39,7 @@ const HomePage = () => {
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
-              <img src={Capa} alt="hero-img" />
+              <img src={Capa} alt="" />
             </Col>
           </Row>
         </Container>
