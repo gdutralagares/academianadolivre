@@ -3,6 +3,7 @@ import Capa from "../images/capa.png";
 import { atividades, dataSwiper } from "../data";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import FaqComponent from "../components/FaqComponent";
 
 // Import Swiper styles
 import "swiper/css";
@@ -111,6 +112,8 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
+      {/* SectionFAQ */}
+      <FaqComponent/>
     </div>
   );
 };

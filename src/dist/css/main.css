@@ -148,7 +148,6 @@ header{
 .homepage .modalidade .row:nth-child(2) img{
   width: 100%;
   height: 280px;
-  border-radius: 0px;
 }
 .homepage .modalidade .row:nth-child(2) .col{
   background-color: #ffffff;
