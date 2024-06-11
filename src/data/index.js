@@ -2,9 +2,9 @@ import Image1 from "/src/images/natacao1.png";
 import Image2 from "/src/images/baby.png";
 import Image3 from "/src/images/hidro.png";
 
-import People1 from "../assets/img/testimonial/people-1.jpg";
-import People2 from "../assets/img/testimonial/people-2.jpg";
-import People3 from "../assets/img/testimonial/people-3.jpg";
+import People1 from "/src/images/hidro.png";
+import People2 from "/src/images/hidro.png";
+import People3 from "/src/images/hidro.png";
 
 export const navLinks = [
   {
@@ -92,7 +92,7 @@ export const atividades = [
 
 ];
 
-export const testimonial = [
+export const fotos = [
   {
     id: 1,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
@@ -136,27 +136,6 @@ export const dataSwiper = [
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
     image: People3,
     name: "People 3",
-    skill: "Web Developer",
-  },
-  {
-    id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
     skill: "Web Developer",
   },
 ];

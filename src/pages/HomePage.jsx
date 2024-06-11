@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Capa from "../images/capa.png";
-import { atividades } from "../data";
+import { atividades, dataSwiper } from "../data";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -98,29 +98,15 @@ const HomePage = () => {
               modules={[EffectCoverflow, Pagination]}
               className="mySwiper"
             >
-              <div class="swiper-zoom-container">
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/src/images/hidro.png" />
-              </SwiperSlide>
-              </div>
+          {dataSwiper.map((data) => {
+              return (
+              <SwiperSlide key={data.id}>
+                <div class="swiper-zoom-container">
+                <img src={data.image} />
+                </div>
+                </SwiperSlide>
+                );
+              })}
             </Swiper>
           </Row>
         </Container>
