@@ -286,6 +286,7 @@ header {
 .footer .no p{
   font-size: 14px;
 }
+
 .footer .no a:hover{
   color: var(--secondary-color);
 }
