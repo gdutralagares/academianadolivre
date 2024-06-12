@@ -4,8 +4,6 @@ import { atividades, dataSwiper } from "../data";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import FaqComponent from "../components/FaqComponent";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -40,7 +38,7 @@ const HomePage = () => {
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
-              <img src={Capa} alt="" />
+              {/* <img src={Capa} alt="" /> */}
             </Col>
           </Row>
         </Container>
