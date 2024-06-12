@@ -7,10 +7,10 @@ const FaqComponent = () => {
       <Container>
         <Row>
           <Col>
-          <h2 className="text-center fw-bold"> Perguntas mais frequentes</h2>
+          <h2 className="text-center fw-bold mb-4"> Perguntas mais frequentes</h2>
           </Col>
         </Row>
-        <Row className="">
+        <Row className="p-5 mt-4">
         <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Quais são os benefícios da natação para a saúde?</Accordion.Header>
