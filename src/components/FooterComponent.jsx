@@ -8,7 +8,7 @@ const FooterComponent = () => {
       <Container>
         <Row>
           <Col>
-          <img src={Logo} alt="" className="logo" />
+            <img src={Logo} alt="" className="logo" />
             <p className="desc">A mais de 30 anos promovendo a saúde!</p>
             <div className="no">
               <Link className="text-decoration-none">
@@ -18,11 +18,16 @@ const FooterComponent = () => {
             </div>
             <div className="social">
               <div className="mail">
-                <Link>
+                <a
+                  href="https://www.instagram.com/academianadolivre"
+                  target="_blank"
+                >
                   <i className="fa-brands fa-instagram"></i>
-                  <i className="fa-regular fa-envelope"></i>
-                  <i className="fa-brands fa-facebook"></i>
-                </Link>
+                </a>
+                <a href="mailto:academianadolivre@yahoo.com.br"                   target="_blank">
+                <i className="fa-regular fa-envelope"></i></a>
+                <a href= "https://www.facebook.com/academianadolivregoiania" target="_blank">
+                <i className="fa-brands fa-facebook"></i></a>
               </div>
             </div>
           </Col>
