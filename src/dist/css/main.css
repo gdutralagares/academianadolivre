@@ -253,3 +253,27 @@ header {
   border: none;
   box-shadow: none;
 }
+/* footer */
+.footer {
+  width: 100%;
+  min-height: 60vh;
+}
+.footer .row:nth-child(1) .col:nth-child(1) h3{
+  color: var(--color-text);
+}
+.footer .row:nth-child(1) .col:nth-child(1) .desc{
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 2;
+}
+.footer .no a,
+.footer .mail a{
+  display: flex;
+  align-items: center;
+  color: black;
+  column-gap: 5px;
+}
+.footer .no a:hover, 
+.footer .mail a:hover{
+  color: var(--secondary-color);
+}
