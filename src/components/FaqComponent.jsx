@@ -1,15 +1,18 @@
 import { Container, Row, Col, Accordion } from "react-bootstrap";
-
+import {faq} from "../data/index"
 const FaqComponent = () => {
   return (
     <div className="faq w-100 min-vh-100">
       <Container>
         <Row>
           <Col>
-            <h1 className="text-center fw-bold">FAQ</h1>
+            <h1 className="text-center fw-bold">Perguntas mais frequentes</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="row-cols-lg-2 row-cols-1">
+          {faq.map((data) =>{
+            return(
+          <Col key={data.id}>
           <Accordion>
             <Accordion.Item eventKey="0">
               <Accordion.Header>
@@ -62,8 +65,11 @@ const FaqComponent = () => {
                 benéfica para a redução do estresse e proporciona um exercício
                 de baixo impacto nas articulações.
               </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item>            
           </Accordion>
+          </Col>
+          );
+        })}
         </Row>
       </Container>
     </div>
