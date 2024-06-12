@@ -168,32 +168,32 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apakah ini Berlangganan?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: " Quais são os benefícios da natação para a saúde?",
+    desc:   "A natação melhora a saúde cardiovascular, fortalece músculos, aumenta a flexibilidade, ajuda no controle do peso, reduz o estresse e melhora a capacidade pulmonar"
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Bagaimana Sistem Belajarnya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Como a natação ajuda no emagrecimento?",
+    desc: " A natação é um exercício de alta queima calórica que trabalha vários grupos musculares, o que ajuda a aumentar o metabolismo e queimar gordura. Além disso, a resistência da água contribui para um treino mais eficaz.",
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Apakah Boleh di Share ke Orang Lain?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "A natação é um bom exercício para melhorar a postura?",
+    desc: "Sim, a natação fortalece os músculos centrais e das costas, ajudando a alinhar a coluna e melhorar a postura geral.",
   },
   {
     id: 4,
     eventKey: 3,
-    title: "Apakah Ada Grup Diskusi?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Quem pode praticar hidroginástica?",
+    desc:  "A hidroginástica é adequada para pessoas de todas as idades e níveis de condicionamento físico. É especialmente recomendada para idosos, pessoas com artrite, lesões ou condições que limitam atividades de alto impacto.",
   },
   {
     id: 5,
     eventKey: 4,
-    title: "Apakah dapat di Akses Selamanya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Quais são os benefícios da hidroginástica?",
+    desc: "A hidroginástica melhora a força muscular, a flexibilidade, a saúde cardiovascular, a coordenação e o equilíbrio. Ela também é benéfica para a redução do estresse e proporciona um exercício de baixo impacto nas articulações.",
   },
   {
     id: 6,
