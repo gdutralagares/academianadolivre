@@ -56,16 +56,16 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
-            {atividades.map((atividade) => {
+            {atividades.map((data) => {
               return (
-                <Col key={atividade.id}>
-                  <img src={atividade.image} alt="" />
-                  <h5 className="mb-3 mt-4 px-3">{atividade.title}</h5>
-                  <p className="px-3">{atividade.text}</p>
+                <Col key={data.id}>
+                  <img src={data.image} alt="" />
+                  <h5 className="mb-3 mt-4 px-3">{data.title}</h5>
+                  <p className="px-3">{data.text}</p>
                   <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                     <p></p>
                     <button className="btn btn-outline-danger round-1">
-                      {atividade.mais}
+                      {data.mais}
                     </button>
                   </div>
                 </Col>

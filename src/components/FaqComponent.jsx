@@ -1,30 +1,30 @@
 import { Container, Row, Col, Accordion } from "react-bootstrap";
-import {faq} from "../data/index"
+import { faq } from "../data/index";
 const FaqComponent = () => {
   return (
-    <div className="faq w-100 min-vh-100">
+    <div className="faq">
       <Container>
         <Row>
           <Col>
             <h1 className="text-center fw-bold">Perguntas mais frequentes</h1>
           </Col>
         </Row>
-        <Row className="row-cols-lg-2 row-cols-1">
-          {faq.map((data) =>{
-            return(
-          <Col key={data.id}>
-          <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>
-                Quais são os benefícios da natação para a saúde?
-              </Accordion.Header>
-              <Accordion.Body>
-                A natação melhora a saúde cardiovascular, fortalece músculos,
-                aumenta a flexibilidade, ajuda no controle do peso, reduz o
-                estresse e melhora a capacidade pulmonar.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
+        <Row className="row-cols-lg-2 row-cols-1 g-4 pt-5">
+          {faq.map((data) => {
+            return (
+              <Col key={data.id}>
+                <Accordion className="shadow-sm">
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      Quais são os benefícios da natação para a saúde?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      A natação melhora a saúde cardiovascular, fortalece
+                      músculos, aumenta a flexibilidade, ajuda no controle do
+                      peso, reduz o estresse e melhora a capacidade pulmonar.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
               <Accordion.Header>
                 Como a natação ajuda no emagrecimento?
               </Accordion.Header>
@@ -66,10 +66,10 @@ const FaqComponent = () => {
                 de baixo impacto nas articulações.
               </Accordion.Body>
             </Accordion.Item>            
-          </Accordion>
-          </Col>
-          );
-        })}
+                </Accordion>
+              </Col>
+            );
+          })}
         </Row>
       </Container>
     </div>
