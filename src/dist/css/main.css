@@ -167,6 +167,9 @@ header {
   margin-top: 40px;
 }
 @media screen and (max-width: 555px) {
+  .col{
+    padding: 40px;
+  }
   .homepage .modalidade .row:nth-child(2) {
     padding-inline: 40px;
   }
