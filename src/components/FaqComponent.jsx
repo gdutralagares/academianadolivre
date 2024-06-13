@@ -30,6 +30,18 @@ const FaqComponent = () => {
         Sim, a natação fortalece os músculos centrais e das costas, ajudando a alinhar a coluna e melhorar a postura geral.
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>Quantas vezes por semana é recomendável que os bebês façam natação?</Accordion.Header>
+        <Accordion.Body>
+        Para obter os melhores benefícios, é recomendado que os bebês participem de aulas de natação uma a duas vezes por semana. Isso ajuda a criar uma rotina sem sobrecarregar o bebê.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="6">
+        <Accordion.Header>A natação pode ajudar na socialização dos bebês?</Accordion.Header>
+        <Accordion.Body>
+        Sim, a natação em grupo permite que os bebês interajam com outros bebês e adultos, o que pode estimular o desenvolvimento social e emocional.
+        </Accordion.Body>
+      </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header>Quem pode praticar hidroginástica?</Accordion.Header>
         <Accordion.Body>

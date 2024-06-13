@@ -203,8 +203,8 @@ export const faq = [
   {
     id: 6,
     eventKey: 5,
-    title: "Apakah ada Mentornya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Quantas vezes por semana é recomendável que os bebês façam natação?",
+    desc: "Para obter os melhores benefícios, é recomendado que os bebês participem de aulas de natação uma a duas vezes por semana. Isso ajuda a criar uma rotina sem sobrecarregar o bebê.",
   },
   {
     id: 7,
