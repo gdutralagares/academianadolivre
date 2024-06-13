@@ -98,13 +98,16 @@ header {
 .col {
   margin-top: 120px;
 }
-.homepage .social i{
+.homepage .social i {
   color: var(--color-text);
   padding: 10px;
   padding-left: 3px;
   padding-top: 20px;
   font-size: 20px;
-  }
+}
+.homepage.social i:hover {
+  color: var(--secondary-color);
+}
 
 @media screen and (max-width: 991px) {
   .homepage .header-box {
@@ -131,9 +134,10 @@ header {
   }
   .btn {
     margin-left: 10px;
-  }.homepage .social i{
+  }
+  .homepage .social i {
     margin-left: 10px;
-    }
+  }
 }
 @media screen and (max-width: 475px) {
   .homepage .header-box h1 {
@@ -165,7 +169,6 @@ header {
 .homepage .modalidade .row:nth-child(1) {
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 .homepage .modalidade .row:nth-child(1) h1,
 .homepage .modalidade .row:nth-child(1) p {
@@ -194,7 +197,6 @@ header {
 .modalidade-page .modalidade .row:nth-child(1) {
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 .modalidade-page .modalidade .row:nth-child(1) h1,
 .modalidade-page .modalidade .row:nth-child(1) p {
@@ -233,10 +235,10 @@ header {
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.modalidade-page .modalidade .row:nth-child(1) h1{
+.modalidade-page .modalidade .row:nth-child(1) h1 {
   color: var(--color-text);
 }
-.modalidade-page .modalidade .row:nth-child(1) p{
+.modalidade-page .modalidade .row:nth-child(1) p {
   color: var(--color-text);
 }
 @media screen and (max-width: 555px) {
@@ -258,25 +260,23 @@ header {
 .homepage .fotos h1 {
   color: var(--color-text);
 }
-.fotos
-  {
-    background: #bed3f7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to left,
-      #f78a8a,
-      #6ab0f7,
-      #ffffff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to left,
-      #8ab0f7,
-      #bed3e6,
-      #ffffff,
-      #ffffff,
-      #ffffff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 80px;
-  
+.fotos {
+  background: #bed3f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f78a8a,
+    #6ab0f7,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #8ab0f7,
+    #bed3e6,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 80px;
 }
 .swiper {
   width: 100%;
@@ -320,19 +320,19 @@ header {
   width: 100%;
   min-height: 40vh;
 }
-.footer .row:nth-child(1) .col:nth-child(1) h3{
+.footer .row:nth-child(1) .col:nth-child(1) h3 {
   color: var(--color-text);
 }
-.footer .row:nth-child(1) .col:nth-child(1) .desc{
+.footer .row:nth-child(1) .col:nth-child(1) .desc {
   color: var(--color-text);
   font-size: 16px;
   line-height: 2;
 }
-.footer p{
+.footer p {
   margin-bottom: 0px;
   padding-left: 3px;
 }
-.footer h1{
+.footer h1 {
   color: var(--color-text);
   margin-top: 20px;
 }
@@ -340,30 +340,30 @@ header {
   margin-top: 40px;
 }
 
-.footer .center{
+.footer .center {
   text-align: center;
   padding-left: 15px;
   margin-bottom: 40px;
 }
-.footer .no a:hover{
+.footer .no a:hover {
   color: var(--secondary-color);
 }
-.footer .social i{
-color: var(--color-text);
-padding: 20px;
-padding-left: 3px;
-padding-top: 10px;
-font-size: 28px;
+.footer .social i {
+  color: var(--color-text);
+  padding: 20px;
+  padding-left: 3px;
+  padding-top: 10px;
+  font-size: 28px;
 }
-.footer .social i:hover{
+.footer .social i:hover {
   color: var(--secondary-color);
+}
+@media screen and (max-width: 767px) {
+  .footer .logocenter {
+    padding-right: 10px;
+    text-align: center;
   }
-  @media screen and (max-width: 767px) {
-    .footer .logocenter{
-      padding-right: 10px;
-      text-align: center;
-    }
-    .footer .logocenter p{
-      padding-left: 10px;
-    }
+  .footer .logocenter p {
+    padding-left: 10px;
   }
+}
