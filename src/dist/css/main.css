@@ -111,7 +111,14 @@ header {
 
 @media screen and (max-width: 991px) {
   .navbar{
-    background-color: var(--navbar-color);
+    background: linear-gradient(
+      to left,
+      #8ab0f7,
+      #bed3e6,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
   }
   .homepage .header-box {
     padding-top: 2rem;
