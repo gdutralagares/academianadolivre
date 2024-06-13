@@ -12,8 +12,10 @@ const FooterComponent = () => {
             <p className="desc">A mais de 30 anos promovendo a saúde!</p>
             <div className="no">
               <Link className="text-decoration-none">
-                <i className="fa-brands fa-whatsapp"></i>
-                <p className="m-0">(62) 981532838</p>
+                  <i className="fa-brands fa-whatsapp"></i>
+                  <a href="https://api.whatsapp.com/send?phone=5562981532838"                   target="_blank">
+                  <p className="m-0">(62) 981532838</p>
+                </a>
               </Link>
             </div>
             <div className="social">
@@ -24,17 +26,26 @@ const FooterComponent = () => {
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href="mailto:academianadolivre@yahoo.com.br"                   target="_blank">
-                <i className="fa-regular fa-envelope"></i></a>
-                <a href= "https://www.facebook.com/academianadolivregoiania" target="_blank">
-                <i className="fa-brands fa-facebook"></i></a>
+                <a href="mailto:academianadolivre@yahoo.com.br" target="_blank">
+                  <i className="fa-regular fa-envelope"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/academianadolivregoiania"
+                  target="_blank"
+                >
+                  <i className="fa-brands fa-facebook"></i>
+                </a>
               </div>
             </div>
           </Col>
         </Row>
         <Row>
           <Col>
-          <p className="text-center px-md-0 px-3 mb-2"> &copy; Copyright {new Date().getFullYear()} by <span className="fw-bold">Gabriel Lagares</span></p>
+            <p className="text-center px-md-0 px-3 mb-2">
+              {" "}
+              &copy; Copyright {new Date().getFullYear()} by{" "}
+              <span className="fw-bold">Gabriel Lagares</span>
+            </p>
           </Col>
         </Row>
       </Container>
