@@ -305,31 +305,21 @@ header {
   font-size: 16px;
   line-height: 2;
 }
-.footer .no a{
-  display: flex;
-  align-items: center;
-  color: var(--color-text);
-  column-gap: 5px;
-  padding: 10px;
-  padding-left: 1px;
-  font-size: 22px;
-  text-decoration: none;
-}
 .footer p{
   margin-bottom: 0px;
   padding-left: 3px;
 }
+.footer h1{
+  color: var(--color-text);
+}
 .footer .col {
   margin-top: 40px;
 }
-.footer .no p{
-  font-size: 14px;
-}
-.footer .no i{
-  font-size: 22px;
-}
 
-
+.footer .center{
+  text-align: center;
+  padding-left: 15px;
+}
 .footer .no a:hover{
   color: var(--secondary-color);
 }
@@ -338,7 +328,7 @@ color: var(--color-text);
 padding: 20px;
 padding-left: 3px;
 padding-top: 10px;
-font-size: 22px;
+font-size: 28px;
 }
 .footer .social i:hover{
   color: var(--secondary-color);
