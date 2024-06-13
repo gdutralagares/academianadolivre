@@ -110,6 +110,9 @@ header {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar{
+    background-color: var(--navbar-color);
+  }
   .homepage .header-box {
     padding-top: 2rem;
   }
