@@ -304,7 +304,6 @@ header {
   color: var(--color-text);
   font-size: 16px;
   line-height: 2;
-  margin-top: 10px;
 }
 .footer .no a{
   display: flex;
@@ -320,8 +319,8 @@ header {
   margin-bottom: 0px;
   padding-left: 3px;
 }
-.footer .col{
-  margin-top: 60px;
+.footer .col {
+  margin-top: 40px;
 }
 .footer .no p{
   font-size: 14px;
@@ -329,6 +328,7 @@ header {
 .footer .no i{
   font-size: 22px;
 }
+
 
 .footer .no a:hover{
   color: var(--secondary-color);

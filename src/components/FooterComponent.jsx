@@ -8,12 +8,11 @@ const FooterComponent = () => {
       <Container>
         <Row>
           <Col>
-            <img src={Logo} alt="" className="logo" />
-            <p className="desc">A mais de 30 anos promovendo a saúde!</p>
-            <div className="no">
-              <div className="text-decoration-none">
-  
-                  <a href="https://api.whatsapp.com/send?phone=5562981532838"                   target="_blank">                <p><i className="fa-brands fa-whatsapp"></i></p>
+          <h1 className="text-center fw-bold">Contato</h1>
+            <div className="no ">
+              <div className="">
+                  <a href="https://api.whatsapp.com/send?phone=5562981532838"                   target="_blank">                
+                  <p><i className="fa-brands fa-whatsapp"></i></p>
                   <p className="m-0">(62) 981532838</p>
                 </a>
               </div>
@@ -37,6 +36,8 @@ const FooterComponent = () => {
                 </a>
               </div>
             </div>
+            <img src={Logo} alt="" className="logo" />
+            <p className="desc">A mais de 30 anos promovendo a saúde!</p>
           </Col>
         </Row>
         <Row>
