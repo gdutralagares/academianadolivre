@@ -363,4 +363,7 @@ font-size: 28px;
       padding-right: 10px;
       text-align: center;
     }
+    .footer .logocenter p{
+      padding-left: 10px;
+    }
   }
