@@ -242,9 +242,9 @@ header {
   color: var(--color-text);
 }
 @media screen and (max-width: 555px) {
-  .col {
-    padding: 20px;
-    margin-top: 10px;
+  .faq .col {
+    padding: 0px;
+    margin-top: 60px;
   }
   .homepage .modalidade .row:nth-child(2) {
     padding-inline: 40px;
