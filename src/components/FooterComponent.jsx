@@ -11,12 +11,12 @@ const FooterComponent = () => {
             <img src={Logo} alt="" className="logo" />
             <p className="desc">A mais de 30 anos promovendo a saúde!</p>
             <div className="no">
-              <Link className="text-decoration-none">
-                  <i className="fa-brands fa-whatsapp"></i>
-                  <a href="https://api.whatsapp.com/send?phone=5562981532838"                   target="_blank">
+              <div className="text-decoration-none">
+  
+                  <a href="https://api.whatsapp.com/send?phone=5562981532838"                   target="_blank">                <p><i className="fa-brands fa-whatsapp"></i></p>
                   <p className="m-0">(62) 981532838</p>
                 </a>
-              </Link>
+              </div>
             </div>
             <div className="social">
               <div className="mail">

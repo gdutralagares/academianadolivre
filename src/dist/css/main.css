@@ -309,8 +309,9 @@ header {
   color: var(--color-text);
   column-gap: 5px;
   padding: 10px;
-  padding-left: 3px;
+  padding-left: 1px;
   font-size: 22px;
+  text-decoration: none;
 }
 .footer p{
   margin-bottom: 0px;
@@ -321,6 +322,9 @@ header {
 }
 .footer .no p{
   font-size: 14px;
+}
+.footer .no i{
+  font-size: 22px;
 }
 
 .footer .no a:hover{
