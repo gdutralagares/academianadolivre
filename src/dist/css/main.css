@@ -242,7 +242,7 @@ header {
 @media screen and (max-width: 555px) {
   .col {
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
   }
   .homepage .modalidade .row:nth-child(2) {
     padding-inline: 40px;
@@ -275,6 +275,8 @@ header {
       #ffffff,
       #ffffff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 80px;
 }
 .swiper {
   width: 100%;

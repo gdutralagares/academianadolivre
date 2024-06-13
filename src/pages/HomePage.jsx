@@ -65,7 +65,7 @@ const HomePage = () => {
               </div>
             </div>
             </Col>
-            <Col lg="6" className="pt-lg-0 pt-5">
+            <Col lg="6" className="pt-lg-0 pt-0">
               {/* <img src={Capa} alt="" /> */}
             </Col>
           </Row>
@@ -100,7 +100,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
-      <div className="fotos w-100 min-vh-100">
+      <div className="fotos ">
         <Container>
           <Row>
             <Col>
