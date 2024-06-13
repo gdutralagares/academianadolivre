@@ -105,7 +105,7 @@ header {
   padding-top: 20px;
   font-size: 20px;
 }
-.homepage.social i:hover {
+.homepage .social i:hover {
   color: var(--secondary-color);
 }
 
