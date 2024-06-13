@@ -319,7 +319,7 @@ header {
 
 .footer .center{
   text-align: center;
-  padding-left: 15px;
+  padding-left: 5px;
   margin-bottom: 40px;
 }
 .homepage .social i{
@@ -345,6 +345,6 @@ font-size: 28px;
   @media screen and (max-width: 575px) {
     .footer .logocenter{
       text-align: center;
-      padding-left: 15px;
+      padding-left: 5px;
     }
   }
