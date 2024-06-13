@@ -100,7 +100,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
-      <div className="fotos ">
+      <div className="fotos w-100 ">
         <Container>
           <Row>
             <Col>

@@ -275,7 +275,8 @@ header {
       #ffffff,
       #ffffff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 80px;
+    padding-bottom: 80px;
+  
 }
 .swiper {
   width: 100%;
