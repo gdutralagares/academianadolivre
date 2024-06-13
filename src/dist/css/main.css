@@ -98,6 +98,13 @@ header {
 .col {
   margin-top: 120px;
 }
+.homepage .social i{
+  color: var(--color-text);
+  padding: 10px;
+  padding-left: 3px;
+  padding-top: 20px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 991px) {
   .homepage .header-box {
@@ -113,6 +120,20 @@ header {
   .homepage .header-box h1 {
     font-size: 2.6rem;
   }
+  .logo {
+    margin-left: 10px;
+  }
+  .homepage .header-box h1 {
+    margin-left: 10px;
+  }
+  .homepage .header-box p {
+    margin-left: 10px;
+  }
+  .btn {
+    margin-left: 10px;
+  }.homepage .social i{
+    margin-left: 10px;
+    }
 }
 @media screen and (max-width: 475px) {
   .homepage .header-box h1 {
@@ -322,13 +343,6 @@ header {
   padding-left: 5px;
   margin-bottom: 40px;
 }
-.homepage .social i{
-  color: var(--color-text);
-  padding: 10px;
-  padding-left: 3px;
-  padding-top: 20px;
-  font-size: 20px;
-  }
 .footer .no a:hover{
   color: var(--secondary-color);
 }
