@@ -311,6 +311,7 @@ header {
 }
 .footer h1{
   color: var(--color-text);
+  margin-top: 20px;
 }
 .footer .col {
   margin-top: 40px;
@@ -319,6 +320,7 @@ header {
 .footer .center{
   text-align: center;
   padding-left: 15px;
+  margin-bottom: 40px;
 }
 .footer .no a:hover{
   color: var(--secondary-color);
@@ -332,4 +334,10 @@ font-size: 28px;
 }
 .footer .social i:hover{
   color: var(--secondary-color);
+  }
+  @media screen and (max-width: 575px) {
+    .footer .logocenter{
+      text-align: center;
+      padding-left: 15px;
+    }
   }

@@ -37,8 +37,10 @@ const FooterComponent = () => {
                   </a>
               </div>
             </div>
+            <div className="logocenter">
             <img src={Logo} alt="" className="logo" />
             <p className="desc">A mais de 30 anos promovendo a saúde!</p>
+            </div>
           </Col>
         </Row>
         <Row className="copy">
