@@ -32,6 +32,11 @@ const FooterComponent = () => {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col>
+          <p className="text-center px-md-0 px-3"> &copy; Copyright {new Date().getFullYear()} by Gabriel Lagares</p>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
