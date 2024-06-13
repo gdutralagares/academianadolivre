@@ -357,7 +357,7 @@ font-size: 28px;
 .footer .social i:hover{
   color: var(--secondary-color);
   }
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 767px) {
     .footer .logocenter{
       padding-right: 10px;
       text-align: center;
