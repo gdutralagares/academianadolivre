@@ -34,7 +34,7 @@ const FooterComponent = () => {
         </Row>
         <Row>
           <Col>
-          <p className="text-center px-md-0 px-3"> &copy; Copyright {new Date().getFullYear()} by Gabriel Lagares</p>
+          <p className="text-center px-md-0 px-3 mb-2"> &copy; Copyright {new Date().getFullYear()} by <span className="fw-bold">Gabriel Lagares</span></p>
           </Col>
         </Row>
       </Container>

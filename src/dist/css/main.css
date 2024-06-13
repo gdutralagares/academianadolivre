@@ -144,6 +144,7 @@ header {
 .homepage .modalidade .row:nth-child(1) {
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 .homepage .modalidade .row:nth-child(1) h1,
 .homepage .modalidade .row:nth-child(1) p {
