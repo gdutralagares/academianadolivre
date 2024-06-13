@@ -52,7 +52,7 @@ export const atividades = [
     image: Image2,
     title: "Natação para bebês",
     mais: "Saiba mais",
-    text:  "A Natação para bebês é uma atividade segura e divertida que introduz os pequenos ao ambiente aquático, ajudando no desenvolvimento motor, fortalecimento muscular e na criação de um vínculo especial com os pais.",
+    text:  "A natação para bebês é uma atividade segura e divertida que introduz os pequenos ao ambiente aquático, ajudando no desenvolvimento motor, fortalecimento muscular e na criação de um vínculo especial com os pais.",
     delay: "200",
   },
   {
@@ -60,7 +60,7 @@ export const atividades = [
     image: Image3,
     title: "Hidroginástica",
     mais: "Saiba mais",
-    text: "A Hidroginástica é uma forma de exercício realizada em água rasa, combinando movimentos aeróbicos e de resistência que oferecem benefícios como fortalecimento muscular, melhoria da flexibilidade e baixo impacto nas articulações.",
+    text: "A hidroginástica é uma forma de exercício realizada em água rasa, combinando movimentos aeróbicos e de resistência que oferecem benefícios como fortalecimento muscular, melhoria da flexibilidade e baixo impacto nas articulações.",
     delay: "400",
   },
 
