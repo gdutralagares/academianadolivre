@@ -221,9 +221,12 @@ header {
 @media screen and (max-width: 555px) {
   .col {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .homepage .modalidade .row:nth-child(2) {
+    padding-inline: 40px;
+  }
+  .modalidade-page .modalidade .row:nth-child(2) {
     padding-inline: 40px;
   }
 }
