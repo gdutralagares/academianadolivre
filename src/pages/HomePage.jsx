@@ -36,6 +36,34 @@ const HomePage = () => {
                 {" "}
                 Saiba mais
               </button>
+              <div className="center">
+              <div className="social">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5562981532838"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/academianadolivre"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="mailto:academianadolivre@yahoo.com.br"
+                    target="_blank"
+                  >
+                    <i className="fa-regular fa-envelope"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/academianadolivregoiania"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-facebook"></i>
+                  </a>
+              </div>
+            </div>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
               {/* <img src={Capa} alt="" /> */}
