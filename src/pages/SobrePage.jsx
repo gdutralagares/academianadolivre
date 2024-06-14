@@ -8,7 +8,10 @@ const SobrePage = () => {
           <Row>
             <Col>
               <h1 className="text-center fw-bold mb-2">Sobre</h1>
-              <h2>Nossa História</h2>
+            </Col>
+          </Row>
+          <Row>
+          <div className="about">
               <p>
                 Fundada em 1993 por Millene Julia Dutra Lagares, a Academia Nado
                 Livre tem sido um pilar de excelência no ensino de natação e
@@ -18,7 +21,6 @@ const SobrePage = () => {
                 idades pudessem descobrir os benefícios e a alegria das
                 atividades aquáticas.
               </p>
-              <h2>Nossa Missão</h2>
               <p>
                 Na Academia Nado Livre, nossa missão é promover um estilo de
                 vida saudável e ativo através de programas de natação e
@@ -26,8 +28,8 @@ const SobrePage = () => {
                 física na água é uma forma essencial de melhorar a saúde física
                 e mental, oferecendo benefícios únicos que vão além do exercício
                 tradicional.
-              </p>
-              <h2>Nossos Serviços</h2>
+              </p><br />
+              <h2 className="text-center">Nossos Serviços</h2>
               <p>
                 Oferecemos uma ampla gama de programas para atender às
                 necessidades de todos os nossos alunos, independentemente da
@@ -43,7 +45,8 @@ const SobrePage = () => {
                 <li>Aulas para Bebês:</li> Introduza os pequenos ao mundo da
                 natação com nossas aulas seguras e divertidas para bebês.
               </p>
-              <h2>Nossa Estrutura</h2>
+              <br />
+              <h2 className="text-center">Nossa Estrutura</h2>
               <p>
                 Nossa academia está equipada com: 
                 <li>Piscinas Aquecidas: </li>Perfeitas
@@ -54,14 +57,15 @@ const SobrePage = () => {
                 Completos com todas as comodidades
                 necessárias.
               </p>
-              <h2>Nossa Equipe </h2>
+              <br />
+              <h2 className="text-center">Nossa Equipe </h2>
               <p>
                 Orgulhamo-nos de ter uma equipe dedicada e apaixonada por ensino
                 e treinamento em atividades aquáticas. Todos os nossos
                 instrutores são certificados e comprometidos em fornecer a
                 melhor experiência de aprendizado para nossos alunos.
               </p>
-            </Col>
+              </div>
           </Row>
         </Container>
       </div>
