@@ -51,12 +51,6 @@ const HomePage = () => {
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a
-                    href="mailto:academianadolivre@yahoo.com.br"
-                    target="_blank"
-                  >
-                    <i className="fa-regular fa-envelope"></i>
-                  </a>
-                  <a
                     href="https://www.facebook.com/academianadolivregoiania"
                     target="_blank"
                   >
