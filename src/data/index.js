@@ -17,23 +17,23 @@ export const navLinks = [
   },
   {
     id: 2,
+    path: "sobre",
+    text: "Sobre",
+  },
+  {
+    id: 3,
     path: "modalidade",
     text: "Modalidades",
   },
   {
-    id: 3,
+    id: 4,
     path: "fotos",
     text: "Fotos",
   },
   {
-    id: 4,
+    id: 5,
     path: "faq",
     text: "FAQ",
-  },
-  {
-    id: 5,
-    path: "sobre",
-    text: "Sobre",
   },
 ];
 

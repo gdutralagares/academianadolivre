@@ -14,10 +14,10 @@ function App() {
 
     <Routes>
       <Route path="/" Component={HomePage}/>
+      <Route path="/sobre" Component={SobrePage}/>
       <Route path="/modalidade" Component={ModalidadePage}/>
       <Route path="/fotos" Component={FotosPage}/>
       <Route path="/faq" Component={FaqPage}/>
-      <Route path="/sobre" Component={SobrePage}/>
     </Routes>
     
     <FooterComponent/>
