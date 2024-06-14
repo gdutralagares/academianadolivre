@@ -32,8 +32,7 @@ const HomePage = () => {
                 um exercício de baixo impacto. Vamos nadar e nos exercitar
                 juntos rumo a uma vida mais saudável e feliz!
               </p>
-              <button className="btn btn-outline-danger round-1">
-                {" "}
+              <button className="btn btn-outline-danger round-1" onClick={() => navigate("/sobre")}>
                 Saiba mais
               </button>
               <div className="center">

@@ -15,6 +15,8 @@
   width: 100%;
   transition: all 0.5s ease;
   z-index: 9999;
+  animation-name: fadeInDown;
+  animation-duration: 1.5s;
 }
 .logo {
   width: 160px;
@@ -82,6 +84,8 @@ header {
   font-size: 2.8rem;
   font-weight: 500;
   color: var(--color-text);
+  animation-name: bounceInUp;
+  animation-duration: 2s;
 }
 .homepage .header-box h1 span {
   font-weight: 600;
@@ -90,6 +94,8 @@ header {
   line-height: 2;
   color: var(--color-text);
   font-weight: 500;
+  animation-name: bounceInUp;
+  animation-duration: 2s;
 }
 .homepage .header-box img {
   width: 80%;
@@ -104,6 +110,12 @@ header {
   padding-left: 3px;
   padding-top: 20px;
   font-size: 20px;
+  animation-name: bounceInUp;
+  animation-duration: 2s;
+}
+.homepage button{
+  animation-name: bounceInUp;
+  animation-duration: 2s;
 }
 .homepage .social i:hover {
   color: var(--secondary-color);
