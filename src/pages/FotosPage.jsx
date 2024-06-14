@@ -4,7 +4,7 @@ import { fotos } from "../data";
 const FotosPage = () => {
   return (
     <div className="fotos-page">
-      <div className="fotos">
+      <div className="fotos pt-4">
         <Container>
           <Row>
             <Col>

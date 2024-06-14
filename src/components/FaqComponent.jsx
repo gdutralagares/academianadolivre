@@ -6,7 +6,7 @@ const FaqComponent = () => {
     <div className="faq">
       <Container>
         <Row>
-          <Col>
+          <Col className="pergunta">
           <h2 className="text-center fw-bold mb-4"> Perguntas mais frequentes</h2>
           </Col>
         </Row>
