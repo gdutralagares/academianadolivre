@@ -57,14 +57,6 @@ const SobrePage = () => {
                 Completos com todas as comodidades
                 necessárias.
               </p>
-              <br />
-              <h2 className="text-center">Nossa Equipe </h2>
-              <p>
-                Orgulhamo-nos de ter uma equipe dedicada e apaixonada por ensino
-                e treinamento em atividades aquáticas. Todos os nossos
-                instrutores são certificados e comprometidos em fornecer a
-                melhor experiência de aprendizado para nossos alunos.
-              </p>
               </div>
           </Row>
         </Container>

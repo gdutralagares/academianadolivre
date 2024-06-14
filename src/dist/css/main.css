@@ -413,10 +413,10 @@ header {
 }
 .pic{
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 .pic .col{
-  margin-top: 25px;
+  margin-top: 75px;
 }
 .fotos-page img {
   display: block;
