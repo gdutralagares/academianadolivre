@@ -377,7 +377,18 @@ header {
     padding-left: 10px;
   }
 }
-
+.pic{
+  margin: auto;
+  width: 80%;
+}
+.pic .col{
+  margin-top: 25px;
+}
+.fotos-page img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
 .fotos-page  .fotos {
   background-color: var(--primary-color);
 }
@@ -404,9 +415,4 @@ header {
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-bottom: 80px;
-}
-.fotos-page img {
-  display: block;
-  width: 100%;
-  border-radius: 5px;
 }

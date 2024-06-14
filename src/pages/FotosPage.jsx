@@ -15,11 +15,11 @@ const FotosPage = () => {
               </p> */}
             </Col>
           </Row>
-          <Row className="row-cols-lg-3 row-cols-1">
+          <Row className="pic row-cols-lg-3 row-cols-1">
             {fotos.map((data) => {
               return (
                 <Col key={data.id}>
-                  <div className="swiper-zoom-container">
+                  <div>
                     <img src={data.image} />
                   </div>
                 </Col>
