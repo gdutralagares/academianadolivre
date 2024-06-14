@@ -473,6 +473,8 @@ header {
 }
 .sobre-page .sobre p{
   font-size: 18px;
+  line-height: 2;
+  font-weight: 300;
 }
 @media screen and (max-width: 780px) {
   .sobre-page .sobre .about{
