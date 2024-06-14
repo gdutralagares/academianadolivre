@@ -329,6 +329,22 @@ header {
 .footer {
   width: 100%;
   min-height: 40vh;
+
+  background: #bed3f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f78a8a,
+    #6ab0f7,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #8ab0f7,
+    #bed3e6,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  );
 }
 .footer .row:nth-child(1) .col:nth-child(1) h3 {
   color: var(--color-text);
@@ -344,7 +360,7 @@ header {
 }
 .footer h1 {
   color: var(--color-text);
-  margin-top: 20px;
+  margin-top: 150px;
 }
 .footer .col {
   margin-top: 40px;
@@ -362,8 +378,16 @@ header {
   color: var(--color-text);
   padding: 20px;
   padding-left: 3px;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 28px;
+}
+.footer .social p {
+  color: var(--color-text);
+  padding: 20px;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-size: 22px;
+  padding-bottom: 120px;
 }
 .footer .social i:hover {
   color: var(--secondary-color);

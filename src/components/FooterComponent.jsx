@@ -35,6 +35,7 @@ const FooterComponent = () => {
                   >
                     <i className="fa-brands fa-facebook"></i>
                   </a>
+                  <p>(62) 3210-4965</p>
               </div>
             </div>
             <div className="logocenter">
