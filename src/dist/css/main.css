@@ -132,9 +132,6 @@ header {
       #ffffff
     );
   }
-  .homepage .header-box {
-    padding-top: 2rem;
-  }
   .homepage .header-box img {
     width: 400px;
     display: block;
