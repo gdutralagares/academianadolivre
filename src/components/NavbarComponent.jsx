@@ -23,7 +23,7 @@ const NavbarComponent = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <a href="#"><img src={Logo} alt="" className="logo" /></a>
+          <a href="/"><img src={Logo} alt="" className="logo" /></a>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
