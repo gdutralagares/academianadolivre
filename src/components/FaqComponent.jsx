@@ -3,14 +3,14 @@ import { faq } from "../data/index";
 
 const FaqComponent = () => {
   return (
-    <div className="faq">
+    <div className="faq pt-4">
       <Container>
         <Row>
           <Col className="pergunta">
-          <h2 className="text-center fw-bold mb-4"> Perguntas mais frequentes</h2>
+          <h1 className="text-center fw-bold mb-4"> Perguntas mais frequentes</h1>
           </Col>
         </Row>
-        <Row className="p-5 mt-4">
+        <Row className="p-3">
         <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Quais são os benefícios da natação para a saúde?</Accordion.Header>

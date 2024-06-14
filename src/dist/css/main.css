@@ -251,10 +251,13 @@ header {
 .modalidade-page .modalidade .row:nth-child(1) p {
   color: var(--color-text);
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 455px) {
   .faq .col {
     padding: 0px;
-    margin-top: 150px;
+    margin-top: 100px;
+  }
+  .faq h1{
+    padding: 30px;
   }
   .homepage .modalidade .row:nth-child(2) {
     padding-inline: 40px;
@@ -312,7 +315,7 @@ header {
   padding-bottom: 100px;
   background-color: var(--primary-color);
 }
-.faq h2 {
+.faq h1 {
   color: var(--color-text);
 
 }
