@@ -450,6 +450,23 @@ header {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-bottom: 80px;
 }
+.sobre-page{
+  background: #bed3f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f78a8a,
+    #6ab0f7,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #8ab0f7,
+    #bed3e6,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  );
+}
 .sobre-page .sobre .about{
   padding: 100px;
   padding-top: 40px;

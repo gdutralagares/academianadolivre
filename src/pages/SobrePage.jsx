@@ -34,26 +34,26 @@ const SobrePage = () => {
                 Oferecemos uma ampla gama de programas para atender às
                 necessidades de todos os nossos alunos, independentemente da
                 idade ou nível de habilidade: 
-                <li>Aulas de Natação para Crianças e
+                <li className="fw-bold">Aulas de Natação para Crianças e
                 Adultos:</li> Desde iniciantes até nadadores avançados, nossos
                 instrutores qualificados fornecem treinamento personalizado para
                 ajudar cada aluno a alcançar seus objetivos aquáticos.
-                <li>Hidroginástica:</li>
+                <li className="fw-bold">Hidroginástica:</li>
                  Projetada para melhorar a resistência, força e
                 flexibilidade, nossas aulas de hidroginástica são perfeitas para
                 pessoas que buscam um treino de baixo impacto.
-                <li>Aulas para Bebês:</li> Introduza os pequenos ao mundo da
+                <li className="fw-bold">Aulas para Bebês:</li> Introduza os pequenos ao mundo da
                 natação com nossas aulas seguras e divertidas para bebês.
               </p>
               <br />
               <h2 className="text-center">Nossa Estrutura</h2>
               <p>
                 Nossa academia está equipada com: 
-                <li>Piscinas Aquecidas: </li>Perfeitas
+                <li className="fw-bold">Piscinas Aquecidas: </li>Perfeitas
                 para aulas durante todo o ano. 
-                <li>Ambiente Seguro e Aconchegante:</li>
+                <li className="fw-bold">Ambiente Seguro e Aconchegante:</li>
                 Garantindo conforto e segurança para todos os nossos alunos.
-                <li>Vestiários Modernos: </li>
+                <li className="fw-bold">Vestiários Modernos: </li>
                 Completos com todas as comodidades
                 necessárias.
               </p>
