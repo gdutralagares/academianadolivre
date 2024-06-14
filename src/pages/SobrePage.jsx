@@ -29,7 +29,7 @@ const SobrePage = () => {
                 e mental, oferecendo benefícios únicos que vão além do exercício
                 tradicional.
               </p><br />
-              <h2 className="text-center">Nossos Serviços</h2>
+              <h2 className="fw-bold">Nossos Serviços</h2>
               <p>
                 Oferecemos uma ampla gama de programas para atender às
                 necessidades de todos os nossos alunos, independentemente da
@@ -46,7 +46,7 @@ const SobrePage = () => {
                 natação com nossas aulas seguras e divertidas para bebês.
               </p>
               <br />
-              <h2 className="text-center">Nossa Estrutura</h2>
+              <h2 className="fw-bold">Nossa Estrutura</h2>
               <p>
                 Nossa academia está equipada com: 
                 <li className="fw-bold">Piscinas Aquecidas: </li>Perfeitas
