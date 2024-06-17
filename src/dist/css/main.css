@@ -101,9 +101,10 @@ header {
   width: 80%;
   margin-left: 80px;
 }
-.homepage .col {
+.col{
   margin-top: 120px;
 }
+
 .homepage .modalidade .col, .homepage .fotos .col  {
   margin-top: 40px;
 }
