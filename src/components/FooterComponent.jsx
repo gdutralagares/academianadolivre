@@ -44,8 +44,7 @@ const FooterComponent = () => {
                 <div className="telefone">
                 <i className="fa-solid fa-phone"></i>
                   <p> (62) 3210-4965</p>
-                </div><br />
-
+                </div>
               </div>
             </div>
             <div className="logocenter">
