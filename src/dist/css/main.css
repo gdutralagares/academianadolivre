@@ -162,14 +162,12 @@ header {
     margin-left: 10px;
   }
 
-  }
-  /* .homepage .social i {
+  .homepage .social i {
     margin-left: 10px;
     padding: 0px;
     padding-left: 4px;
     padding-top: 20px;
-    font-size: 24px;
-  } */
+  }
 }
 @media screen and (max-width: 475px) {
   .homepage .header-box h1 {
