@@ -190,7 +190,7 @@ header {
   padding-bottom: 80px;
 }
 .homepage .modalidade .row:nth-child(1) {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 .homepage .modalidade .row:nth-child(1) h1,
