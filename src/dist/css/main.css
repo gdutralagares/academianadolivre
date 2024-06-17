@@ -58,8 +58,8 @@
   color: var(--navbar-color);
 }
 .btn {
-  color: var(--navbar-color-text);
-  border-color: var(--navbar-color-text);
+  color: var(--color-text);
+  border-color: var(--color-text);
   border-radius: 3px;
 }
 /*Home page header*/
