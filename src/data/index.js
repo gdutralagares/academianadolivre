@@ -1,6 +1,6 @@
 import Image1 from "/src/images/natacao1.png";
 import Image2 from "/src/images/baby.png";
-import Image3 from "/src/images/hidro.png";
+import Image3 from "/src/images/hidro1.jpg";
 
 import Foto1 from "/src/images/foto1.jpeg";
 import Foto2 from "/src/images/foto4.jpeg";
