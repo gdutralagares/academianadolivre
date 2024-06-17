@@ -81,7 +81,7 @@ const HomePage = () => {
                   <p className="px-3">{data.text}</p>
                   <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                     <p></p>
-                    <button className="btn btn-outline-danger round-1">
+                    <button className="btn btn-outline-danger round-1"onClick={() => navigate("/modalidade")}>
                       {data.mais}
                     </button>
                   </div>
