@@ -35,7 +35,13 @@ const FooterComponent = () => {
                   >
                     <i className="fa-brands fa-facebook"></i>
                   </a>
-                  <p>(62) 3210-4965</p>
+                  <a
+                    href="https://www.google.com/maps/place/Academia+Nado+Livre/@-16.6495033,-49.2740054,15z/data=!4m6!3m5!1s0x935ef39b39cfa7f5:0x74394ee9b2e9d765!8m2!3d-16.6457665!4d-49.2735426!16s%2Fg%2F1tnpgjb7"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-location-dot"></i>
+                  </a>
+                  <p>Goiânia-GO / (62) 3210-4965</p>
               </div>
             </div>
             <div className="logocenter">

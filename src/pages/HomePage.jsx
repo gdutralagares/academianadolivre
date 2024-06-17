@@ -41,6 +41,7 @@ const HomePage = () => {
                   >
                     <i className="fa-brands fa-whatsapp"></i>
                   </a>
+                  
                   <a
                     href="https://www.instagram.com/academianadolivre"
                     target="_blank"
@@ -52,6 +53,12 @@ const HomePage = () => {
                     target="_blank"
                   >
                     <i className="fa-brands fa-facebook"></i>
+                  </a>
+                  <a
+                    href="https://www.google.com/maps/place/Academia+Nado+Livre/@-16.6495033,-49.2740054,15z/data=!4m6!3m5!1s0x935ef39b39cfa7f5:0x74394ee9b2e9d765!8m2!3d-16.6457665!4d-49.2735426!16s%2Fg%2F1tnpgjb7"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-location-dot"></i>
                   </a>
               </div>
             </div>
