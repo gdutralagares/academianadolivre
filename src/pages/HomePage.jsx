@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Capa from "../images/capa.png";
+import Capa from "../images/capa3.png";
 import { atividades, dataSwiper } from "../data";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -59,7 +59,7 @@ const HomePage = () => {
             </div>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-0">
-              {/* <img src={Capa} alt="" /> */}
+              <img src={Capa} alt="" />
             </Col>
           </Row>
         </Container>
