@@ -335,7 +335,7 @@ header {
 .faq {
   padding-top: none;
   padding-bottom: 100px;
-  background-color: var(--primary-color);
+  background-color: #fafafa;
 }
 .faq h1 {
   color: var(--color-text);
@@ -350,7 +350,7 @@ header {
 .faq .accordion .accordion-button {
   color: var(--color-text);
   font-weight: bold;
-  background-color: #ffffff;
+  background-color: #ececec;
   line-height: 1.5;
 }
 .faq .accordion .accordion-button:focus {
