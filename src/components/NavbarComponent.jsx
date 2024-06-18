@@ -24,8 +24,8 @@ const NavbarComponent = () => {
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
           <a href="/"><img src={Logo} alt="" className="logo" /></a>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <div className="menu">
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
               {navLinks.map((link) => {
@@ -45,6 +45,7 @@ const NavbarComponent = () => {
               })}
             </Nav>
           </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </div>
