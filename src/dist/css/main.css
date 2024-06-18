@@ -5,7 +5,7 @@
   --primary-color: #f6f8fd;
   --secondary-color: #dc3545;
   --color-text: #231942;
-  --navbar-color: #ffffff;
+  --navbar-color: #fafafa;
   --navbar-color-text: #000000;
 }
 /*NAVBAR*/
@@ -69,15 +69,16 @@ header {
     to left,
     #f78a8a,
     #6ab0f7,
-    #ffffff
+    #fafafa
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
     #8ab0f7,
     #bed3e6,
-    #ffffff,
-    #ffffff,
-    #ffffff
+    #fafafa,
+    #fafafa,
+    #fafafa
+
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .homepage .header-box h1 {
@@ -135,9 +136,10 @@ header {
       to left,
       #8ab0f7,
       #bed3e6,
-      #ffffff,
-      #ffffff,
-      #ffffff
+      #fafafa,
+      #fafafa,
+      #fafafa
+  
     );
   }
   .homepage .header-box img {
@@ -262,9 +264,10 @@ header {
     to left,
     #8ab0f7,
     #bed3e6,
-    #ffffff,
-    #ffffff,
-    #ffffff
+    #fafafa,
+    #fafafa,
+    #fafafa
+
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .modalidade-page .modalidade .row:nth-child(1) h1 {
@@ -307,9 +310,10 @@ header {
     to left,
     #8ab0f7,
     #bed3e6,
-    #ffffff,
-    #ffffff,
-    #ffffff
+    #fafafa,
+    #fafafa,
+    #fafafa
+
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-bottom: 80px;
 }
@@ -373,9 +377,10 @@ header {
     to left,
     #8ab0f7,
     #bed3e6,
-    #ffffff,
-    #ffffff,
-    #ffffff
+    #fafafa,
+    #fafafa,
+    #fafafa
+
   );
 }
 .footer .row:nth-child(1) .col:nth-child(1) h3 {
