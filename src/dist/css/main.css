@@ -418,7 +418,9 @@ header {
   color: var(--color-text);
   padding: 0px;
   font-size: 15px;
-
+}
+.footer .center{
+  margin-bottom: 70px;
 }
 .footer .social i:hover {
   color: var(--secondary-color);
