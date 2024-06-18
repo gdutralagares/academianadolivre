@@ -111,7 +111,7 @@ header {
 }
 .homepage .social i {
   color: var(--color-text);
-  padding: 10px;
+  padding: 15px;
   padding-left: 3px;
   padding-top: 20px;
   font-size: 24px;
@@ -380,7 +380,6 @@ header {
     #fafafa,
     #fafafa,
     #fafafa
-
   );
 }
 .footer .row:nth-child(1) .col:nth-child(1) h3 {
