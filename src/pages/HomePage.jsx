@@ -63,7 +63,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </header>
-      <div className="modalidade w-100 min-vh-100">
+      <div className="modalidade w-100 min-vh-100" >
         <Container>
           <Row>
             <Col>
@@ -76,7 +76,7 @@ const HomePage = () => {
           <Row>
             {atividades.map((data) => {
               return (
-                <Col key={data.id}>
+                <Col key={data.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={data.delay}>
                   <img src={data.image} alt="" />
                   <h5 className="mb-3 mt-4 px-3">{data.title}</h5>
                   <p className="px-3">{data.text}</p>

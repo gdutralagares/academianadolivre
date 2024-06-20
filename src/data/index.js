@@ -45,7 +45,7 @@ export const atividades = [
     title: "Natação",
     mais: "Saiba mais",
     text: "A natação é um esporte aquático que combina técnica, resistência e coordenação, proporcionando um exercício completo que fortalece os músculos, melhora a capacidade cardiovascular e promove o bem-estar geral.",
-    delay: "",
+    delay: "200",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const atividades = [
     title: "Natação para bebês",
     mais: "Saiba mais",
     text:  "A natação para bebês é uma atividade segura e divertida que introduz os pequenos ao ambiente aquático, ajudando no desenvolvimento motor, fortalecimento muscular e na criação de um vínculo especial com os pais.",
-    delay: "200",
+    delay: "300",
   },
   {
     id: 3,
