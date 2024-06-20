@@ -76,7 +76,7 @@ const HomePage = () => {
           <Row>
             {atividades.map((data) => {
               return (
-                <Col key={data.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={data.delay}>
+                <Col key={data.id} data-aos="fade-up" data-aos-duration="500" data-aos-delay={data.delay}>
                   <img src={data.image} alt="" />
                   <h5 className="mb-3 mt-4 px-3">{data.title}</h5>
                   <p className="px-3">{data.text}</p>
