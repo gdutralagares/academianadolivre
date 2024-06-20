@@ -179,6 +179,7 @@ header {
   .homepage .social {
     padding-left: 10px;
   }
+  
 }
 
 @media screen and (max-width: 575px) {
@@ -401,6 +402,7 @@ header {
   .faq .accordion{
     padding: 20px;
   }
+  
 }
 /* footer */
 .footer {
@@ -444,8 +446,8 @@ header {
 }
 
 .footer .center {
-  text-align: center;
-  padding-left: 15px;
+
+  padding-left: 80px;
   margin-bottom: 40px;
 }
 .footer .no a:hover {
@@ -454,15 +456,15 @@ header {
 .footer .social i {
   color: var(--color-text);
   padding: 10px;
-  padding-left: 3px;
+  padding-left: 10px;
   padding-top: 20px;
   font-size: 22px;
   margin: 0px 5px;
 }
 .footer .social p {
   color: var(--color-text);
-  padding: 0px;
-  font-size: 15px;
+  padding: 6px;
+  font-size: 18px;
 }
 .footer .center {
   margin-bottom: 70px;
@@ -472,21 +474,39 @@ header {
 }
 .footer .telefone {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 26px;
 }
 .footer .telefone i {
   padding: 10px;
 }
-@media screen and (max-width: 767px) {
-  .footer .logocenter {
-    padding-right: 10px;
+.footer .logocenter {
+  padding-right: 10px;
+  text-align: center;
+}
+.footer .logocenter p {
+  padding-left: 10px;
+}
+@media screen and (max-width: 991px) {
+  .footer .center {
     text-align: center;
+    padding-left: 15px;
   }
-  .footer .logocenter p {
-    padding-left: 10px;
+  .footer .social p {
+    padding: 0px;
+    font-size: 15px;
   }
+  .footer .telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 26px;
+  }
+  .footer .social i {
+    padding-left: 3px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+
   .navbar button {
     margin-left: 250px;
   }
