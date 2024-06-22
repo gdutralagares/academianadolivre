@@ -71,7 +71,7 @@ export const modalidades = [
     image: Image1,
     title: "Natação",
     mais: "Saiba mais",
-    text: "A natação é um esporte aquático que combina técnica, resistência e coordenação, proporcionando um exercício completo que fortalece os músculos, melhora a capacidade cardiovascular e promove o bem-estar geral.",
+    text: "A natação é uma atividade física abrangente, conhecida tanto por suas aplicações recreativas quanto competitivas. Originada há milênios, a prática evoluiu para incluir várias modalidades, como nado livre, peito, borboleta, e estilos combinados (medley), além de natação sincronizada, polo aquático, saltos ornamentais e nado em águas abertas. Seus benefícios são vastos, abrangendo desde o fortalecimento cardiovascular e muscular até a melhora da flexibilidade e redução do estresse, sendo uma opção de exercício de baixo impacto. Ideal para todas as idades, a natação requer técnicas adequadas e equipamentos básicos, como maiôs e óculos. Seja para competição ou lazer, nadar oferece um caminho gratificante para a saúde e bem-estar geral.",
     delay: "",
   },
   {
@@ -79,7 +79,7 @@ export const modalidades = [
     image: Image2,
     title: "Natação para bebês",
     mais: "Saiba mais",
-    text:  "Natação para bebês é uma atividade segura e divertida que introduz os pequenos ao ambiente aquático, ajudando no desenvolvimento motor, fortalecimento muscular e na criação de um vínculo especial com os pais.",
+    text:  "A natação para bebês é uma atividade envolvente que introduz os pequenos ao ambiente aquático de forma segura e divertida. Ela oferece inúmeros benefícios, incluindo o desenvolvimento físico, como coordenação motora e fortalecimento muscular, e emocionais, como aumento da confiança e fortalecimento do vínculo com os pais. Além disso, a natação contribui para a segurança aquática, ajudando os bebês a se familiarizarem com a água desde cedo. Para iniciar, é essencial escolher uma piscina apropriada e segura, utilizar equipamentos adequados, como fraldas de natação, e respeitar o ritmo natural da criança durante as sessões curtas e lúdicas.",
     delay: "200",
   },
   {
@@ -87,7 +87,7 @@ export const modalidades = [
     image: Image3,
     title: "Hidroginástica",
     mais: "Saiba mais",
-    text: "Hidroginástica é uma forma de exercício realizada em água rasa, combinando movimentos aeróbicos e de resistência que oferecem benefícios como fortalecimento muscular, melhoria da flexibilidade e baixo impacto nas articulações.",
+    text: "A hidroginástica é uma forma de exercício aeróbico realizado em piscinas, aproveitando a resistência da água para proporcionar um treino de baixo impacto, ideal para todas as idades e níveis de condicionamento físico. Beneficiando o sistema cardiovascular e fortalecendo os músculos, a hidroginástica também melhora a flexibilidade e a coordenação, sem sobrecarregar as articulações. É especialmente popular entre idosos e pessoas em reabilitação, mas também é uma excelente opção para quem busca uma atividade física eficiente e suave.",
     delay: "400",
   },
 
