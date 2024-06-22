@@ -26,6 +26,7 @@ const NavbarComponent = () => {
       <Navbar  expanded={expanded} expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
           <a href="/"><img src={Logo} alt="" className="logo" /></a>
+          <div className="pad">
           <Navbar.Toggle onClick={() => setExpanded(!expanded)} aria-controls="basic-navbar-nav" />
           <div className="menu">
           <Navbar.Collapse onClick={() => setExpanded(false)} id="basic-navbar-nav">
@@ -47,6 +48,7 @@ const NavbarComponent = () => {
               })}
             </Nav>
           </Navbar.Collapse>
+          </div>
           </div>
         </Container>
       </Navbar>

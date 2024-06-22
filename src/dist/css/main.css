@@ -21,6 +21,9 @@
 .navbar a {
   padding-left: 85px;
 }
+.navbar .pad{
+  padding-right: 70px;
+}
 
 .logo {
   width: 160px;
@@ -510,6 +513,10 @@ header {
   .navbar button {
     margin-left: 250px;
   }
+  .navbar .pad{
+    padding-right: 0px;
+  }
+  
 }
 @media screen and (max-width: 533px) {
   .navbar button {
