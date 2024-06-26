@@ -27,7 +27,7 @@ const NavbarComponent = () => {
         <Container>
           <a href="/"><img src={Logo} alt="" className="logo" /></a>
           <div className="pad">
-          <Navbar.Toggle onClick={() => setExpanded(!expanded)} aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle onClick={() => setExpanded(!expanded)} aria-controls="basic-navbar-nav" /></div>
           <div className="menu">
           <Navbar.Collapse onClick={() => setExpanded(false)} id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
@@ -48,7 +48,6 @@ const NavbarComponent = () => {
               })}
             </Nav>
           </Navbar.Collapse>
-          </div>
           </div>
         </Container>
       </Navbar>
