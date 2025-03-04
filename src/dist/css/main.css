@@ -95,6 +95,7 @@ header {
   animation-name: fadeIn;
   animation-duration: 2s;
   padding-left: 90px;
+  margin-top: 20px;
 }
 .homepage .header-box h1 span {
   font-weight: 600;
