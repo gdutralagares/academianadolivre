@@ -442,10 +442,10 @@ header {
 }
 .footer h1 {
   color: var(--color-text);
-  margin-top: 150px;
+  margin-top: 60px;
 }
 .footer .col {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .footer .center {
@@ -490,7 +490,8 @@ header {
 }
 @media screen and (max-width: 991px) {
   .footer .center {
-    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
     padding-left: 15px;
   }
   .footer .social p {
@@ -500,7 +501,6 @@ header {
   .footer .telefone {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-right: 26px;
   }
   .footer .social i {
