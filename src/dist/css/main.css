@@ -444,10 +444,11 @@ header {
 }
 .footer h1 {
   color: var(--color-text);
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .footer .col {
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .footer .center {
