@@ -25,10 +25,7 @@ const HomePage = () => {
                 <span>saúde</span> e <span>bem-estar</span>!
               </h1>
               <p className="mb-4">
-                Bem-vindo à Academia Nado Livre, onde a saúde e o bem-estar
-                fluem juntos! Nossa missão é proporcionar um ambiente acolhedor
-                e motivador para que você possa alcançar seus objetivos. Vamos nadar e nos exercitar
-                juntos rumo a uma vida mais saudável e feliz!
+                Bem-vindo à Academia Nado Livre, onde a saúde e o bem-estar caminham lado a lado! Nossa missão é proporcionar um ambiente acolhedor e motivador para que você possa alcançar seus objetivos. Vamos nadar e nos exercitar juntos rumo a uma vida mais saudável e feliz!
               </p>
               <button className="btn btn-outline-danger round-1" onClick={() => navigate("/sobre")}>
                 Saiba mais
