@@ -31,12 +31,12 @@ const SobrePage = () => {
               </p><br />
               <h2 className="fw-bold">Nossos Serviços</h2>
               <p>
-                Oferecemos uma ampla gama de programas para atender às
+                Oferecemos modalidades para atender às
                 necessidades de todos os nossos alunos, independentemente da
                 idade ou nível de habilidade: 
                 <li className="fw-bold">Aulas de Natação para Crianças e
-                Adultos:</li> Desde iniciantes até nadadores avançados, nossos
-                instrutores qualificados fornecem treinamento personalizado para
+                Adultos:</li> Nossos
+                instrutores qualificados fornecem o melhor treinamento para
                 ajudar cada aluno a alcançar seus objetivos aquáticos.
                 <li className="fw-bold">Hidroginástica:</li>
                  Projetada para melhorar a resistência, força e
