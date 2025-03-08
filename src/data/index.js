@@ -8,6 +8,8 @@ import Foto3 from "/src/images/foto5.jpeg";
 import Foto4 from "/src/images/foto6.jpeg";
 import Foto5 from "/src/images/foto2.jpeg";
 import Foto6 from "/src/images/foto3.jpeg";
+import Foto7 from "/src/images/foto7.jpeg";
+import Foto8 from "/src/images/foto8.jpeg";
 
 export const navLinks = [
   {
@@ -125,6 +127,16 @@ export const fotos = [
     image: Foto6,
     name: "",
   },
+  {
+    id: 7,
+    image: Foto7,
+    name: "",
+  },
+  {
+    id: 8,
+    image: Foto8,
+    name: "",
+  },
 
 
   
@@ -163,6 +175,18 @@ export const dataSwiper = [
   {
     id: 6,
     image: Foto6,
+    name: "People 3",
+
+  },
+  {
+    id: 7,
+    image: Foto7,
+    name: "People 3",
+
+  },
+  {
+    id: 8,
+    image: Foto8,
     name: "People 3",
 
   },
