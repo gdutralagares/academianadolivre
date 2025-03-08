@@ -248,7 +248,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  padding-inline: 100px;
+  padding-inline: 30px;
 }
 
 .homepage .modalidade .row:nth-child(2) img {
